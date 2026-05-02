@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+.header {
+    background: #ffffff;
+    border-bottom: 2px solid #003366;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background: #003366;
+    color: white;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar h3 {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #1a4d80;
+}
+
+.sidebar a:hover {
+    background: #800000;
+}
+
+/* Content */
+.content {
+    margin-left: 220px;
+    padding: 15px;
+}
+
+/* Cards */
+.card {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: white;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* L1 Highlight */
+.l1 {
+    background-color: #c6efce !important;
+    font-weight: bold;
+}
+
+/* Marquee */
+.marquee {
+    background: #800000;
+    color: white;
+    padding: 5px;
+}
